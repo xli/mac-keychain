@@ -1,0 +1,7 @@
+MIT-LICENSE.txt
+Manifest
+README.rdoc
+Rakefile
+ext/bridgesupport/rakefile
+lib/mac_keychain.rb
+test/test_mac_keychain.rb

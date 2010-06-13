@@ -1,0 +1,5 @@
+
+task :default do
+  cmd = "gen_bridge_metadata -f Security -o #{File.join(ENV['RUBYLIBDIR'], 'Security.bridgesupport')}"
+  puts %x[#{cmd}]
+end
