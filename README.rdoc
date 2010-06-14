@@ -1,12 +1,19 @@
 = Mac-Keychain -- Ruby interface to Mac OSX Keychain
 
+== SYNOPSIS
+
+  @keychain = MacKeychain.new('AppName')
+  @keychain.save('account name', 'password')
+  ....
+  @keychain.delete('account name')
+
 == Install
 
 gem install mac-keychain
 
 == Limitation
 
-It only works on Mac.
+It only works on Mac, and need RubyCocoa.
 
 = Other stuff
 
